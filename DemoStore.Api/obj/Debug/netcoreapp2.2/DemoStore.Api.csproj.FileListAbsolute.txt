@@ -1,0 +1,14 @@
+C:\dev\csharp\DemoStore\DemoStore.Api\bin\Debug\netcoreapp2.2\DemoStore.Api.deps.json
+C:\dev\csharp\DemoStore\DemoStore.Api\bin\Debug\netcoreapp2.2\DemoStore.Api.runtimeconfig.json
+C:\dev\csharp\DemoStore\DemoStore.Api\bin\Debug\netcoreapp2.2\DemoStore.Api.runtimeconfig.dev.json
+C:\dev\csharp\DemoStore\DemoStore.Api\bin\Debug\netcoreapp2.2\DemoStore.Api.dll
+C:\dev\csharp\DemoStore\DemoStore.Api\bin\Debug\netcoreapp2.2\DemoStore.Api.pdb
+C:\dev\csharp\DemoStore\DemoStore.Api\obj\Debug\netcoreapp2.2\DemoStore.Api.csprojAssemblyReference.cache
+C:\dev\csharp\DemoStore\DemoStore.Api\obj\Debug\netcoreapp2.2\DemoStore.Api.csproj.CoreCompileInputs.cache
+C:\dev\csharp\DemoStore\DemoStore.Api\obj\Debug\netcoreapp2.2\DemoStore.Api.RazorAssemblyInfo.cache
+C:\dev\csharp\DemoStore\DemoStore.Api\obj\Debug\netcoreapp2.2\DemoStore.Api.RazorAssemblyInfo.cs
+C:\dev\csharp\DemoStore\DemoStore.Api\obj\Debug\netcoreapp2.2\DemoStore.Api.AssemblyInfoInputs.cache
+C:\dev\csharp\DemoStore\DemoStore.Api\obj\Debug\netcoreapp2.2\DemoStore.Api.AssemblyInfo.cs
+C:\dev\csharp\DemoStore\DemoStore.Api\obj\Debug\netcoreapp2.2\DemoStore.Api.RazorTargetAssemblyInfo.cache
+C:\dev\csharp\DemoStore\DemoStore.Api\obj\Debug\netcoreapp2.2\DemoStore.Api.dll
+C:\dev\csharp\DemoStore\DemoStore.Api\obj\Debug\netcoreapp2.2\DemoStore.Api.pdb

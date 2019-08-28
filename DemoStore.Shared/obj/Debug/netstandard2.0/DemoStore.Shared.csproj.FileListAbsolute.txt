@@ -1,0 +1,9 @@
+C:\dev\csharp\DemoStore\DemoStore.Shared\bin\Debug\netstandard2.0\DemoStore.Shared.deps.json
+C:\dev\csharp\DemoStore\DemoStore.Shared\bin\Debug\netstandard2.0\DemoStore.Shared.dll
+C:\dev\csharp\DemoStore\DemoStore.Shared\bin\Debug\netstandard2.0\DemoStore.Shared.pdb
+C:\dev\csharp\DemoStore\DemoStore.Shared\obj\Debug\netstandard2.0\DemoStore.Shared.csprojAssemblyReference.cache
+C:\dev\csharp\DemoStore\DemoStore.Shared\obj\Debug\netstandard2.0\DemoStore.Shared.csproj.CoreCompileInputs.cache
+C:\dev\csharp\DemoStore\DemoStore.Shared\obj\Debug\netstandard2.0\DemoStore.Shared.AssemblyInfoInputs.cache
+C:\dev\csharp\DemoStore\DemoStore.Shared\obj\Debug\netstandard2.0\DemoStore.Shared.AssemblyInfo.cs
+C:\dev\csharp\DemoStore\DemoStore.Shared\obj\Debug\netstandard2.0\DemoStore.Shared.dll
+C:\dev\csharp\DemoStore\DemoStore.Shared\obj\Debug\netstandard2.0\DemoStore.Shared.pdb
