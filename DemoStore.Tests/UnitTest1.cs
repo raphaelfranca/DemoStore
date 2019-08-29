@@ -1,5 +1,5 @@
-using Demostore.Domain.StoreContext.Entities;
-using Demostore.Domain.StoreContext.ValueObjects;
+using DemoStore.Domain.StoreContext.Entities;
+using DemoStore.Domain.StoreContext.ValueObjects;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace DemoStore.Tests

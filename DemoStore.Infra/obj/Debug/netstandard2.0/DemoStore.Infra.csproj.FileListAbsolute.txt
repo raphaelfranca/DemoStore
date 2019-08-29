@@ -1,9 +1,0 @@
-C:\dev\csharp\DemoStore\DemoStore.Infra\bin\Debug\netstandard2.0\DemoStore.Infra.deps.json
-C:\dev\csharp\DemoStore\DemoStore.Infra\bin\Debug\netstandard2.0\DemoStore.Infra.dll
-C:\dev\csharp\DemoStore\DemoStore.Infra\bin\Debug\netstandard2.0\DemoStore.Infra.pdb
-C:\dev\csharp\DemoStore\DemoStore.Infra\obj\Debug\netstandard2.0\DemoStore.Infra.csprojAssemblyReference.cache
-C:\dev\csharp\DemoStore\DemoStore.Infra\obj\Debug\netstandard2.0\DemoStore.Infra.csproj.CoreCompileInputs.cache
-C:\dev\csharp\DemoStore\DemoStore.Infra\obj\Debug\netstandard2.0\DemoStore.Infra.AssemblyInfoInputs.cache
-C:\dev\csharp\DemoStore\DemoStore.Infra\obj\Debug\netstandard2.0\DemoStore.Infra.AssemblyInfo.cs
-C:\dev\csharp\DemoStore\DemoStore.Infra\obj\Debug\netstandard2.0\DemoStore.Infra.dll
-C:\dev\csharp\DemoStore\DemoStore.Infra\obj\Debug\netstandard2.0\DemoStore.Infra.pdb

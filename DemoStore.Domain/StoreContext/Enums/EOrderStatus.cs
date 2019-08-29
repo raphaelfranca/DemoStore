@@ -1,5 +1,5 @@
 
-namespace Demostore.Domain.StoreContext.Enums
+namespace DemoStore.Domain.StoreContext.Enums
 {
     public enum EOrderStatus
     {

@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "FluentValidator/2.0.4": {
+      "FluentValidator/2.0.2": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.1"
@@ -41,14 +41,14 @@
     }
   },
   "libraries": {
-    "FluentValidator/2.0.4": {
-      "sha512": "px1HWHYBD20PuCUgz/mEl/QcBsikW5nbdtR5whllwMIyJ4FJs03nGXe5ocHEre/x3CX72hJBnX7bteqkZwlcfA==",
+    "FluentValidator/2.0.2": {
+      "sha512": "+jPy82KgA80/SjmesLUCQsBB+GWbffGYMeGUMizLWc87hQkBPnyrysfoa/Hiq0QciGEeFD1PokPwLafnNDnQ/Q==",
       "type": "package",
-      "path": "fluentvalidator/2.0.4",
+      "path": "fluentvalidator/2.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "fluentvalidator.2.0.4.nupkg.sha512",
+        "fluentvalidator.2.0.2.nupkg.sha512",
         "fluentvalidator.nuspec",
         "lib/netstandard1.3/FluentValidator.dll"
       ]
@@ -199,12 +199,12 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "FluentValidator >= 2.0.4",
+      "FluentValidator >= 2.0.2",
       "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\raphael.franca\\.nuget\\packages\\": {},
+    "C:\\Users\\rapha\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -213,19 +213,21 @@
       "projectUniqueName": "C:\\dev\\csharp\\DemoStore\\DemoStore.Domain\\DemoStore.Domain.csproj",
       "projectName": "DemoStore.Domain",
       "projectPath": "C:\\dev\\csharp\\DemoStore\\DemoStore.Domain\\DemoStore.Domain.csproj",
-      "packagesPath": "C:\\Users\\raphael.franca\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\rapha\\.nuget\\packages\\",
       "outputPath": "C:\\dev\\csharp\\DemoStore\\DemoStore.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\raphael.franca\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\rapha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -244,7 +246,7 @@
         "dependencies": {
           "FluentValidator": {
             "target": "Package",
-            "version": "[2.0.4, )"
+            "version": "[2.0.2, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",

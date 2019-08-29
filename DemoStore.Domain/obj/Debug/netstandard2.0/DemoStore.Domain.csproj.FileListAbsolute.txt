@@ -1,9 +1,0 @@
-C:\dev\csharp\DemoStore\DemoStore.Domain\bin\Debug\netstandard2.0\DemoStore.Domain.deps.json
-C:\dev\csharp\DemoStore\DemoStore.Domain\bin\Debug\netstandard2.0\DemoStore.Domain.dll
-C:\dev\csharp\DemoStore\DemoStore.Domain\bin\Debug\netstandard2.0\DemoStore.Domain.pdb
-C:\dev\csharp\DemoStore\DemoStore.Domain\obj\Debug\netstandard2.0\DemoStore.Domain.csprojAssemblyReference.cache
-C:\dev\csharp\DemoStore\DemoStore.Domain\obj\Debug\netstandard2.0\DemoStore.Domain.csproj.CoreCompileInputs.cache
-C:\dev\csharp\DemoStore\DemoStore.Domain\obj\Debug\netstandard2.0\DemoStore.Domain.AssemblyInfoInputs.cache
-C:\dev\csharp\DemoStore\DemoStore.Domain\obj\Debug\netstandard2.0\DemoStore.Domain.AssemblyInfo.cs
-C:\dev\csharp\DemoStore\DemoStore.Domain\obj\Debug\netstandard2.0\DemoStore.Domain.dll
-C:\dev\csharp\DemoStore\DemoStore.Domain\obj\Debug\netstandard2.0\DemoStore.Domain.pdb

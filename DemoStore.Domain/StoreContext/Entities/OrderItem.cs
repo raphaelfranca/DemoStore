@@ -2,7 +2,7 @@
 using System;
 using FluentValidator;
 
-namespace Demostore.Domain.StoreContext.Entities
+namespace DemoStore.Domain.StoreContext.Entities
 {
     public class OrderItem : Notifiable
     {
@@ -14,6 +14,8 @@ namespace Demostore.Domain.StoreContext.Entities
 
             if (product.QuantityOnHand < quantity)
                 AddNotification("Quantity", "Produto fora de estoque");
+
+            product.DecreaseQuantity(quantity);
         }
         public Product Product { get; private set; }
         public decimal Quantity { get; private set; }

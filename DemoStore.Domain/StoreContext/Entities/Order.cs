@@ -2,10 +2,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Demostore.Domain.StoreContext.Enums;
+using DemoStore.Domain.StoreContext.Enums;
 using FluentValidator;
 
-namespace Demostore.Domain.StoreContext.Entities
+namespace DemoStore.Domain.StoreContext.Entities
 {
     public class Order : Notifiable
     {
@@ -60,8 +60,7 @@ namespace Demostore.Domain.StoreContext.Entities
         // enviar um pedido
         public void Ship()
         {
-            var deliveries = new List<Delivery>();
-            deliveries.Add(new Delivery(DateTime.Now.AddDays(5)));
+            var deliveries = new List<Delivery>();            
             var count = 1;
             // quebra as entregas
             foreach (var item in _items)

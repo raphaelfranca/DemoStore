@@ -1,10 +1,10 @@
 
 using System;
 using System.Collections.Generic;
-using Demostore.Domain.StoreContext.ValueObjects;
+using DemoStore.Domain.StoreContext.ValueObjects;
 using System.Linq;
 
-namespace Demostore.Domain.StoreContext.Entities
+namespace DemoStore.Domain.StoreContext.Entities
 {
     public class Customer
     {

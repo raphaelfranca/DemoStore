@@ -1,7 +1,7 @@
 
 using System;
 
-namespace Demostore.Domain.StoreContext.Entities
+namespace DemoStore.Domain.StoreContext.Entities
 {
     public class Product
     {
@@ -27,6 +27,11 @@ namespace Demostore.Domain.StoreContext.Entities
         public override string ToString()
         {
             return Title;
+        }
+
+        public void DecreaseQuantity(decimal quantity)
+        {
+            QuantityOnHand -= quantity;
         }
 
     }

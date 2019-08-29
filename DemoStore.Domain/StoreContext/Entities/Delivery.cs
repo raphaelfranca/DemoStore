@@ -1,8 +1,8 @@
 
 using System;
-using Demostore.Domain.StoreContext.Enums;
+using DemoStore.Domain.StoreContext.Enums;
 
-namespace Demostore.Domain.StoreContext.Entities
+namespace DemoStore.Domain.StoreContext.Entities
 {
     public class Delivery
     {

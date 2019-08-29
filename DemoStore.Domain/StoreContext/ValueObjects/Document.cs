@@ -2,7 +2,7 @@
 using FluentValidator;
 using FluentValidator.Validation;
 
-namespace Demostore.Domain.StoreContext.ValueObjects
+namespace DemoStore.Domain.StoreContext.ValueObjects
 {
     public class Document : Notifiable
     {
