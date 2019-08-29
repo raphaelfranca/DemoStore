@@ -3,10 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Demostore.Domain.StoreContext.Enums;
+using FluentValidator;
 
 namespace Demostore.Domain.StoreContext.Entities
 {
-    public class Order
+    public class Order : Notifiable
     {
         private readonly IList<OrderItem> _items;
         private readonly IList<Delivery> _deliveries;
@@ -25,10 +26,17 @@ namespace Demostore.Domain.StoreContext.Entities
         public IReadOnlyCollection<OrderItem> Items => _items.ToArray();
         public IReadOnlyCollection<Delivery> Deliveries => _deliveries.ToArray();
 
-        public void AddItem(OrderItem item)
+    
+        public void AddItem(Product product, decimal quantity)
         {
-            _items.Add(item);
+            if(quantity > product.QuantityOnHand)
+                AddNotification("OrderItem", $"Produto {product.Title} não tem {quantity} itens em estoque.");
+
+            var item = new OrderItem(product, quantity);
+           _items.Add(item);
         }
+
+
         public void AddDelivery(Delivery delivery)
         {
             _deliveries.Add(delivery);

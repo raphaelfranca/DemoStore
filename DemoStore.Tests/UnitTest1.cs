@@ -18,9 +18,9 @@ namespace DemoStore.Tests
             var teclado = new Product("Teclado", "Descrição", "image.png", 159.90M, 10);
             var impressora = new Product("Impressora", "Descrição", "image.png", 359.90M, 10);
             var order = new Order(c);
-            order.AddItem(new OrderItem(mouse, 5));
-            order.AddItem(new OrderItem(teclado, 5));
-            order.AddItem(new OrderItem(impressora, 5));
+            order.AddItem(mouse, 5);
+            order.AddItem(teclado, 5);
+            order.AddItem(impressora, 5);
             
             // simular pedido
             order.Place();
