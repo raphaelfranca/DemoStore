@@ -17,7 +17,7 @@ namespace Demostore.Domain.StoreContext.ValueObjects
         public string Number { get; private set; }      
 
         public override string ToString()
-        {
+        {            
             return Number;
         }
 
