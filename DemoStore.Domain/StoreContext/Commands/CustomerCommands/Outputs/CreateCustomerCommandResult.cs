@@ -3,7 +3,7 @@ using DemoStore.Shared.Commands;
 using FluentValidator;
 using FluentValidator.Validation;
 
-namespace DemoStore.Domain.StoreContext.CustomerCommands.Inputs
+namespace DemoStore.Domain.StoreContext.CustomerCommands.Outputs
 {
     public class CreateCustomerCommandResult : ICommandResult
     {

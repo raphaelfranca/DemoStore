@@ -1,5 +1,6 @@
 using System;
 using DemoStore.Domain.StoreContext.CustomerCommands.Inputs;
+using DemoStore.Domain.StoreContext.CustomerCommands.Outputs;
 using DemoStore.Domain.StoreContext.Entities;
 using DemoStore.Domain.StoreContext.Repositories;
 using DemoStore.Domain.StoreContext.Services;
@@ -48,7 +49,7 @@ namespace DemoStore.Domain.StoreContext.Handlers
             AddNotifications(customer.Notifications);
 
             if (Invalid)
-                return new CommandResult(
+                return new CreateCustomerCommandResult(
                     false,
                     "Por favor, corrija os campos abaixo",
                     Notifications);
@@ -60,7 +61,7 @@ namespace DemoStore.Domain.StoreContext.Handlers
             _emailService.Send(email.Address, "raphaelfrancabsb@gmail.com", "Bem vindo", "Seja bem vindo ao Balta Store!");
 
             // Retornar o resultado para tela
-            return new CommandResult(true, "Bem vindo a Store", new
+            return new CreateCustomerCommandResult(true, "Bem vindo a Store", new
             {
                 Id = customer.Id,
                 Name = name.ToString(),
